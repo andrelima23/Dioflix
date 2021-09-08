@@ -1,0 +1,361 @@
+body {
+    width: auto;
+    height: 560px;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    width: auto;
+    height: 80px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 32px;
+    color:rgb(51, 22, 85);
+}
+
+h1.Title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 46px;
+    color:rgb(209, 6, 6);
+    top: -200;
+    position: absolute;
+    left: 48px;
+    top: -20px;
+}
+
+h2.MovieTitle {
+    font-size: 34px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+}
+
+.SubTitle {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:60%;
+    color:rgb(150, 150, 150);
+    position: absolute;
+    left: 30px;
+    top: 70px; 
+    font-variant: normal;
+    letter-spacing: 0.5px;
+}
+
+.Sinopse {
+    font-size: 17px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    width:50%;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 110px; 
+    font-variant: normal;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+h2, h4 {
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.Screen {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.Container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-end;
+    position: relative;
+    margin-left: 50px;
+}
+
+.OutrosFilmes {
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: 630px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    top: 570px;
+}
+
+.GridFilmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+
+.Filmes {
+    padding-top: 150px;
+    width: 190px;
+    height: 290px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border-radius: 3px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#TitleOutrosFilmes{
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+.Buttons {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    left: 0px;
+    top: 420px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Gen {
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    color:rgb(208, 211, 30);
+    background-color: rgb(7, 71, 128);
+}
+
+#Classificacao {
+    position: absolute;
+    width: 20px;
+    left: 0px;
+    top: 80px;
+}
+
+#Info {
+    font-size: 16px;
+    list-style: none;
+    color: rgba(251, 255, 36, 0.822);
+    position: absolute;
+    width: auto;
+    left: -40px;
+    top: 250px;
+}
+
+#InfoL {
+    width: auto;
+    color:rgb(150, 150, 150);
+    margin-top: 8px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+#Info2 {
+    font-size: 16px;
+    list-style: none;
+    position: absolute;
+    width: auto;
+    left: 40px;
+    top: 250px;
+}
+
+#InfoL2 {
+    width: auto;
+    color:rgb(255, 255, 255);
+    margin-top: 8px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+.Btn {
+    margin-right: 10px;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #2859cef5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #2859cef5;
+}
+
+.Btn:hover {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.ImgBtn {
+    margin-right: 4px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    
+}
+
+.Menu {
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 48px;
+}
+
+.nav {
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navSignUp {
+    color:rgb(255, 255, 255);
+    width: 130px;
+    height: auto;
+    background-color: rgb(209, 6, 6);
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navSignUp:hover {
+    background-color: rgb(82, 82, 82);
+    color:rgb(255, 255, 255);
+}
+.MaisFilmes {
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    border-style: none;
+    position: absolute;
+    bottom: -520px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 45%;
+}
+
+.Main {
+    display: block;
+    position: relative;
+}
+
+.ImgBG01 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-minion.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG02 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-a-cabana.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG03 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-after.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG04 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-venom.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG05 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-cinquenta-tons-de-cinza.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG06 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-uma-noite-no-museu-2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
+
+.ImgBG07 {
+    width: 980px;
+    height: 560px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),  rgba(0, 0, 0, 0.1)), url(/src/img/capa-homem-aranha-longe-de-casa.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -10px; 
+    border-radius: 2px;   
+}
